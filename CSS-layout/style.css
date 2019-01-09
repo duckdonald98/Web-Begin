@@ -1,0 +1,33 @@
+.m1{
+  /* để auto để tự động căn giữa
+  nội dung bên trong thẻ */
+
+  max-width: 200px;
+  margin: 10px auto;
+  /* sử dụng overlow để fix đoạn văn
+   không có dấu cách hoặc nội dung
+   quá dài không thể tự động ngắn */
+  overflow: scroll;
+}
+
+
+.box{
+  float: left;
+  width: 200px;
+  height: 100px;
+  border: 2px solid red;
+  overflow: visible;
+  margin: 10px;
+}
+.clear{
+  clear: both;
+}
+  /* Nội dung trong thẻ sau sẽ được hiển
+  thị xung quanh thẻ .box ở trên.
+       -> Nếu .after-box set size không đủ rộng
+           nó sẽ xuống dóng */
+.after-box{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+}

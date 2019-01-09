@@ -1,0 +1,25 @@
+*{
+  height: 30px;
+  /* Cái này không set được cho
+    những thẻ phía dưới
+    margin: 10 auto; */
+  text-align: center;
+}
+header{
+  background: #ccff99;
+}
+
+section{
+  background: #00ffff;
+}
+
+article{
+  background: #ff9966;
+}
+
+aside{
+  background: #ffff99;
+}
+footer{
+  background: #6699cc;
+}
